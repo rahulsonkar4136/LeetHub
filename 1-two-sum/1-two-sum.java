@@ -13,18 +13,18 @@ class Solution {
     }
         return res;
     }
-    public static void main(String[] args)
-    {
-        Scanner sc=new Scanner(System.in);
-        int[] num=new int[30];
-        int target;
-        for(int i=0;i<num.length;i++)
-        {
-            num[i]=sc.nextInt();
+//     public static void main(String[] args)
+//     {
+//         Scanner sc=new Scanner(System.in);
+//         int[] num=new int[30];
+//         int target;
+//         for(int i=0;i<num.length;i++)
+//         {
+//             num[i]=sc.nextInt();
             
-        }
-        target=sc.nextInt();
-        Solution ob=new Solution();
-        ob.twoSum(num, target);
-    }
+//         }
+//         target=sc.nextInt();
+//         Solution ob=new Solution();
+//         ob.twoSum(num, target);
+//     }
 }
